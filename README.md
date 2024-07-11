@@ -1,0 +1,1 @@
+# Strona Hackerzy.pl
