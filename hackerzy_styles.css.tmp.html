@@ -400,22 +400,21 @@ font-weight: 700;}
   
 }
 
-#black-scenario {
+#black-scenario.infobox  {
 background-color: #f4dddb;
 border-left-color: #c0392b;
 transition: opacity 0.3s ease;
-z-index: 1001; /* Ensure infobox is above overlay */
 }
 
 /* Initially hide the content */
-#black-scenario p {
+#black-scenario.infobox p {
   display: none;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
 /* Show the content when .infobox has .show-content */
-#black-scenario..show-content p {
+#black-scenario.infobox.show-content p {
   display: block;
   position: absolute;
   top: 100%; /* Position it below the h4 */
@@ -435,20 +434,4 @@ body.overlay-active::before {
   background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
   z-index: 1000; /* Ensure overlay is on top of other content */
   pointer-events: none; /* Allow interaction with underlying elements */
-}
-
-/* Ensure the overlay does not cover #black-scenario */
-#black-scenario {
-  z-index: 1001; /* Ensure infobox is above overlay */
-}
-
-/* Hide the paragraph initially */
-#black-scenario p {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-/* Show the paragraph when infobox is hovered */
-#black-scenario:hover p {
-  opacity: 1;
 }
