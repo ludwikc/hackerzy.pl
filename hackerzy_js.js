@@ -134,40 +134,16 @@ showPopup();
 
 
 // INFOBOX - hide and toggle 
-const infobox = document.querySelector('#black-scenario');
-const content = infobox.querySelector('p');
-const body = document.body;
-
-function showContent() {
-  // Show infobox with a smooth fade-in effect
-  infobox.style.opacity = '1';
-  // Add a dark overlay to cover the rest of the site content
-  body.classList.add('overlay-active');
+function toggleContent() {
+  var box = document.getElementById('black-scenario');
+  box.classList.toggle('expanded');
 }
 
-function hideContent() {
-  // Hide infobox and remove the dark overlay
-  infobox.style.opacity = '0';
-  body.classList.remove('overlay-active');
-}
-
-// For desktop hover events
-infobox.addEventListener('mouseenter', showContent);
-infobox.addEventListener('mouseleave', hideContent);
-
-// For touch devices (tap to show, tap outside to hide)
-infobox.addEventListener('click', function(e) {
-  e.preventDefault();
-  showContent();
-  // Hide infobox when tapping outside
-  document.addEventListener('click', function outsideClickHandler(event) {
-    const isOutside = !infobox.contains(event.target);
-    if (isOutside) {
-      hideContent();
-      document.removeEventListener('click', outsideClickHandler);
-    }
-  });
+var box = document.getElementById('black-scenario');
+box.addEventListener('mouseleave', function() {
+  box.classList.remove('expanded');
 });
+
 
 
 // Initialize Functions on DOM Content Loaded
