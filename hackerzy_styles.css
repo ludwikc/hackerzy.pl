@@ -22,9 +22,10 @@ header {
   width: 100%; /* Ensure the header spans the full width */
 }
 header h1 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Orbitron", sans-serif;
   letter-spacing: -0.05em;
-  font-size: 68px;
+  font-size: 2em;
+  font-weight: 900;
   text-transform: uppercase;
   font-style: oblique;
   margin: 0;
