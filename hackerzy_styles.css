@@ -576,3 +576,18 @@ body.overlay-active::before {
   padding-top: 1em;
 }
 
+.neumorphic-button {
+  background: #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  color: #333;
+  font-size: 1em;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.neumorphic-button:hover {
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
