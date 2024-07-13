@@ -173,7 +173,8 @@ const stylesheets = {
   'brutalist': 'hackerzy_brutalist.css',
   '90s': 'hackerzy_90s.css',
   'heroic': 'hackerzy_heroic.css',
-  'retro': 'hackerzy_retro_futurism.css'
+  'retro': 'hackerzy_rf.css',
+  'minimal': 'hackerzy_minimal.css'
 };
 
 /**
