@@ -1674,6 +1674,30 @@ ul.pattern .color6 {
   .back-slide img {
     height: 100vh;
   }
+  .services-box {
+      margin-bottom: 20px; /* Adjust as needed */
+    }
+    .ifeatures-section {
+      display: flex;
+      flex-direction: column;
+    }
+    .ifeature {
+      display: flex;
+      flex-direction: column;
+    }
+    .ifeature img {
+      order: 1;
+      width: 100%;
+    }
+    .ifeature-text {
+      order: 2;
+      text-align: center; /* Optional: Center text */
+      padding: 10px; /* Optional: Add padding for better spacing */
+    }
+ .pricing-section .price-discount {
+    text-decoration: line-through !important;
+    display: inline-block; /* Ensure it behaves correctly */
+  }
 }
 @media (max-width: 1023px) {
   .navbar-custom .nav-social {
