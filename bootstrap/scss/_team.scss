@@ -1,0 +1,30 @@
+//
+// team.scss
+//
+
+.team-social {
+  li {
+    a {
+      color: #808083;
+      border: 1px solid #f1f1f1;
+      background-color: $white;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 16px;
+      display: inline-block;
+      transition: all 0.5s;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.team-box {
+  &.active {
+    box-shadow: 0px 0px 20px -4px #e8e8e8;
+  }
+}

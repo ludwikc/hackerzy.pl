@@ -1,0 +1,119 @@
+//
+// components.scss
+//
+
+.btn {
+  padding: 12px 34px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  transition: all 0.5s;
+  font-weight: 700;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+
+.btn-sm {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.shadow {
+  box-shadow: $box-shadow !important;
+}
+
+.border-width-2 {
+  border: 2px solid;
+}
+
+@each $name, $value in $colors {
+  .bg-#{$name} {
+    background-color: #{$value} !important ;
+  }
+
+  .bg-soft-#{$name} {
+    background-color: rgba(($value), 0.1) !important;
+  }
+  .text-#{$name} {
+    color: #{$value} !important;
+  }
+
+  .border-#{$name} {
+    color: #{$value} !important;
+  }
+
+
+
+  // Icons
+  .icon-dual-#{$name} {
+    color: $value;
+    fill: rgba($value, 0.2);
+  }
+
+  .btn-soft-#{$name} {
+    background-color: rgba(($value), 0.25) !important;
+    color: #{$value} !important;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    &.focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):active:focus,
+    .open > .dropdown-toggle.btn-primary {
+      background: darken($value, 4%);
+    }
+  }
+
+  .btn-#{$name} {
+    background: #{$value};
+    border-color: #{$value};
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    &.focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):active:focus,
+    .open > .dropdown-toggle.btn-primary {
+      background: darken($value, 4%);
+      border-color: darken($value, 4%);
+    }
+  }
+
+  .btn-outline-#{$name} {
+    color: #{$value};
+    border-color:#{$value};
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    &.focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):active:focus,
+    .open > .dropdown-toggle.btn-primary {
+      background: $value;
+      border-color: $value;
+    }
+  }
+}
+
+
+.btn-outline-white {
+  border: 2px solid;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.focus,
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled):active:focus,
+  .open > .dropdown-toggle.btn-primary {
+    color: $dark;
+  }
+}

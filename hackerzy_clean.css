@@ -1,0 +1,298 @@
+/* Reset and basic styles */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.625;
+  overflow-x: hidden;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+h2 {
+  font-size: 1.6875em; /* Approximately 27px */
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em; /* Approximately 24px */
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.25em; /* Approximately 20px */
+  margin: 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border: 0;
+  clear: both;
+  margin: 1.65em auto;
+  border-bottom: 1px solid currentColor;
+  color: #eee;
+}
+
+a {
+  color: #0073e5;
+  text-decoration: underline;
+  transition: color .2s ease-in-out;
+}
+
+a:focus, a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+em, i {
+  font-style: italic;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0 0 30px;
+}
+
+/* Form elements */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type=button], [type=submit] {
+  -webkit-appearance: button;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+/* Form styling */
+input, select, textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border-color: #999;
+  outline: 0;
+}
+
+input[type=checkbox], input[type=image], input[type=radio] {
+  width: auto;
+}
+
+::placeholder {
+  color: #333;
+  opacity: 1;
+}
+
+/* Buttons */
+.button, button, input[type=button], input[type=submit] {
+  background-color: #333;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  display: inline-block;
+}
+
+.button:focus, .button:hover,
+button:focus, button:hover,
+input[type=button]:focus, input[type=button]:hover,
+input[type=submit]:focus, input[type=submit]:hover {
+  background-color: #0073e5;
+  color: #fff;
+}
+
+.button:disabled, button:disabled, input:disabled,
+input:disabled, input[type=button]:disabled,
+input[type=button]:disabled, input[type=submit]:disabled,
+input[type=submit]:disabled {
+  background-color: #eee;
+  color: #777;
+  cursor: not-allowed;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 40px;
+  width: 100%;
+  word-break: break-all;
+}
+
+tbody {
+  border-bottom: 1px solid #eee;
+}
+
+tr {
+  border-top: 1px solid #eee;
+}
+
+/* Accessibility and hidden elements */
+.screen-reader-text, .screen-reader-text span {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background: #fff;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+  clip: auto !important;
+  color: #333;
+  display: block;
+  font-size: 1em;
+  font-weight: 700;
+  height: auto;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  width: auto;
+  z-index: 100000;
+}
+
+/* Responsive and print styles */
+@media only screen and (min-width: 480px) {
+  table {
+    table-layout: auto;
+    word-break: normal;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .site-inner {
+    max-width: 1140px;
+  }
+
+  .content {
+    float: left;
+    width: 65%;
+  }
+
+  .full-width-content .content {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+  *:not(.screen-reader-text):not(button):not(input):not(select):not(textarea) {
+    background: 0 0!important;
+    box-shadow: none!important;
+    color: #333!important;
+    text-shadow: none!important;
+  }
+
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  a[href^="#"]::after, a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  img {
+    max-width: 100%!important;
+  }
+
+  @page {
+    margin: 2cm .5cm;
+  }
+
+  h2, h3, p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

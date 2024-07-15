@@ -1,0 +1,198 @@
+//
+// helper.scss
+//
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background: $white;
+}
+
+.section-sm {
+  padding: 50px 0;
+}
+
+.section-lg {
+  padding: 100px 0;
+}
+
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+
+.home-center {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.btn-rounded {
+  border-radius: 30px;
+}
+
+.box-shadow {
+  box-shadow: $box-shadow;
+}
+
+hr {
+  border-top: 1px solid #e7ebf3;
+}
+
+::-moz-selection {
+  background-color: $dark;
+  color: $white;
+ }
+
+::selection {
+  background-color: $dark;
+  color: $white;
+ }
+
+b {
+  font-weight: 500;
+}
+
+ol{
+  list-style: none !important;
+}
+// font-size
+
+.f-10 {
+  font-size: 10px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-19 {
+  font-size: 19px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.line-height_1_4 {
+  line-height: 1.4;
+}
+
+.line-height_1_6 {
+  line-height: 1.6;
+}
+
+.line-height_1_8 {
+  line-height: 1.8;
+}
+
+// font-weight
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+// heading
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+  line-height: 1;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.title-subtitle {
+  max-width: 550px;
+}
+
+.title-icon {
+  font-size: 32px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.section-subtitle {
+  letter-spacing: 0.02em;
+}
+
+.svg-pattern {
+  width: 100%;
+  position: relative;
+}
+
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+}
+.hover-effect:hover {
+  transform: translateY(-1rem);
+}
+
+// back to top
+
+.back-to-top {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  text-align: center;
+  z-index: 10000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #3c3c3c;
+  transition: all 0.5s;
+  i {
+    color: $white;
+    font-size: 12px;
+    display: block;
+    line-height: 30px;
+  }
+}
+

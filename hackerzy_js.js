@@ -174,7 +174,8 @@ const stylesheets = {
   '90s': 'hackerzy_90s.css',
   'heroic': 'hackerzy_heroic.css',
   'retro': 'hackerzy_rf.css',
-  'minimal': 'hackerzy_minimal.css'
+  'minimal': 'hackerzy_minimal.css',
+  'clean': 'hackerzy_clean.css'
 };
 
 /**

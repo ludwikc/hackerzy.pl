@@ -1,0 +1,92 @@
+//
+// switcher.scss
+//
+
+#style-switcher div h3 {
+  color: $white;
+  font-size: 16px;
+  margin: 0 3px 12px;
+}
+#style-switcher {
+  background: none repeat scroll 0 0 #2b2424;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
+  left: -189px;
+  position: fixed;
+  top: 17%;
+  width: 189px;
+  z-index: 9999;
+  padding: 10px 5px;
+}
+#style-switcher div {
+  padding: 5px 10px;
+}
+#style-switcher .bottom {
+  background: none repeat scroll 0 0 $white;
+  color: #252525;
+  padding: 0;
+}
+#style-switcher .bottom a.settings {
+  background: none repeat scroll 0 0 #2b2424;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
+  display: block;
+  height: 41px;
+  position: absolute;
+  right: -40px;
+  top: 0;
+  width: 40px;
+  padding: 3px;
+}
+#style-switcher .bottom a {
+  text-decoration: none;
+}
+
+#style-switcher .bottom a.settings i {
+  margin-left: 7px;
+  color: $white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 7px;
+}
+
+ul.pattern {
+  list-style: none outside none;
+  margin: 0 0 0px;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0px;
+}
+ul.pattern li {
+  float: left;
+  margin: 2px;
+}
+ul.pattern li a {
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-radius: 30px;
+  margin: 5px;
+}
+ul.pattern .color1 {
+  background-color: $primary;
+}
+ul.pattern .color2 {
+  background-color: $pink;
+}
+ul.pattern .color3 {
+  background-color: $warning;
+}
+ul.pattern .color4 {
+  background-color: $success;
+}
+ul.pattern .color5 {
+  background-color: $purple;
+}
+ul.pattern .color6 {
+  background-color: $info;
+}
+@media only screen and (max-width: 479px) {
+  #style-switcher {
+    display: none;
+  }
+}

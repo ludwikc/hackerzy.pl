@@ -1,0 +1,62 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Mulish:wght@400;600;700&display=swap');
+
+$primary:   #615fe6;
+$success:   #31b164;
+$info:      #37b8df;
+$warning:   #f2b31a;
+$danger:    #fb3e3e;
+$orange:    #f09105;
+$purple:    #8060cf;
+$cyan:      #1bbc9d;
+$blue:      #2762da;
+$pink:      #ff546c;
+$white:     #ffffff;
+$dark:      #1a1a1a;
+$light:     #fafbfe;
+$muted:     #6c757d;
+
+// stylelint-disable
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #efefef;
+$gray-400: #e6effe;
+$gray-500: #adb5bd;
+$gray-600: #89a2b5;
+$gray-700: #495057;
+$gray-800: #2d2d2d;
+$gray-900: #1d262d;
+
+$colors: (
+    "primary": $primary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "orange": $orange,
+    "dark": $dark,
+    "cyan": $cyan,
+    "blue": $blue,
+    "muted": $muted,
+    "purple": $purple,
+    "pink": $pink,
+    "white": $white,
+    "light": $light
+);
+
+
+// Body Background
+$body-bg:                   #f5f5f5;
+$bg-gradient:               linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+$box-shadow:                0px 3px 6px 1px rgba(38, 107, 193, 0.08);
+
+
+// Base font
+$font-size-base:            14px;
+
+$font-family-base:          'Montserrat', sans-serif;
+$font-family-secondary:     'Mulish', sans-serif;

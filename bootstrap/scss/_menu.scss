@@ -1,0 +1,203 @@
+//
+// menu.scss
+//
+
+.navbar-custom {
+  padding: 20px 0px;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  margin-bottom: 0px;
+  transition: all 0.5s ease-in-out;
+  .nav-social {
+    li {
+      a {
+        color: $white !important;
+        border: 2px solid #5f5f5f;
+        border-radius: 50%;
+        letter-spacing: 0.05em;
+        height: 40px;
+        display: inline-block;
+        width: 40px;
+        text-align: center;
+        line-height: 38px;
+      }
+      
+    }
+    .nav-number {
+      i{
+        position: relative;
+        top: 3px;
+        font-size: 18px;
+      }
+      span {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    }
+   
+  }
+  .navbar-nav {
+    margin-left: 50px;
+    li {
+      a {
+        color: rgba($white, 0.5);
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 0.5s;
+        background-color: transparent !important;
+        margin: 0 7px;
+        letter-spacing: 0.05em;
+      }
+    }
+  }
+  .navbar-brand {
+    color: $white;
+    text-transform: uppercase;
+  }
+}
+
+.sticky-wrapper {
+  width: 100%;
+}
+
+.navbar-toggler {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: $dark;
+}
+
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active {
+  color: $white;
+}
+
+.navbar-toggle {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: $white;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background-color: transparent;
+  border-color: #337ab7;
+}
+
+.navbar-custom {
+  .navbar-toggles {
+    padding: 0.25rem 0.75rem;
+    font-size: 18px;
+    background: 0 0;
+    border: 1px solid transparent;
+    color: $white;
+    outline: 0;
+  }
+
+  .navbar-toggles-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+  }
+}
+
+.menu-toggle {
+  padding: 4.5px 10px !important;
+}
+
+.menu-toggle {
+  span {
+    line-height: 27px;
+  }
+}
+
+.navbar-button {
+  margin-left: 20px;
+}
+
+
+
+
+/*---NAVBAR LIGHT--*/
+
+.navbar-custom.navbar-light {
+  background-color: $white !important;
+  padding: 20px 0;
+  box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-light {
+  .navbar-nav {
+    li {
+      a {
+        color: rgba($white, 0.5) !important;
+      }
+    }
+    li.active a,
+    li:hover,
+    li:active {
+      color: $primary !important;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+  }
+}
+
+.navbar-light .navbar-nav li a {
+  color: #828080 !important;
+}
+
+.navbar-custom.navbar-light,
+.navbar-custom.navbar-light .navbar-brand,
+.navbar-light .navbar-toggle,
+.navbar-light .nav-number,
+.navbar-light .nav-social li a {
+  color: #393f4f !important;
+}
+
+
+
+/*---NAVBAR STICKY--*/
+
+.nav-sticky {
+  &.navbar-custom {
+    margin-top: 0px;
+    padding: 10px 0px;
+
+    &.sticky-dark {
+      background-color: $dark;
+      padding: 15px 0px;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: rgba($white, 0.6);
+      }
+    }
+  }
+}
+
+.nav-sticky.navbar-custom .navbar-nav li.active a,
+.nav-sticky.navbar-custom .navbar-nav li a:hover,
+.nav-sticky.navbar-custom .navbar-nav li a:active {
+  color: $white !important;
+}
+
+.nav-sticky.navbar-custom .navbar-toggles {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid transparent;
+  outline: 0;
+}
+
+.nav-sticky .navbar-nav {
+  margin-top: 0px;
+}

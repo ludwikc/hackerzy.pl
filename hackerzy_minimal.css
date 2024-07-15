@@ -2,7 +2,8 @@
 body {
   font-family: "Archivo", sans-serif;
   font-size: 18px;
-  background-color: #fefefe;
+  font-weight: 400;
+  background-color: #FCFCF9;
   color: #333;
   margin: 0;
   padding: 0;
@@ -148,20 +149,22 @@ section {
 .infobox {
   padding: 20px;
   background: #fff;
-  border-left: 4px solid #1d4ed8;
+  border-left: 4px solid #2A80B9;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
 .ierror {
   background-color: #f8d7da;
-  border-left-color: #f5c6cb;
+  border-left-color: #C0392B;
 }
 
 .iinfo {
   background-color: #fff3cd;
-  border-left-color: #ffeeba;
+  border-left-color: #F1C40F;
 }
+
+
 
 /* Image Styling */
 .resource-image {

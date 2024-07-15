@@ -1,0 +1,33 @@
+//
+// authentication.scss
+//
+
+.bg-login {
+  background-image: url(../images/cartographer.png);
+  height: 100vh;
+}
+
+.login-form{
+  .form-control {
+    height: 44px;
+    border: none;
+    margin-bottom: 14px;
+    border: 2px solid #eaeaea;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.forgot-pass-txt {
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.page-heading{
+  h1{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}

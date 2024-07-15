@@ -1,0 +1,43 @@
+//
+// footer.scss
+//
+
+.footer {
+  background-image: url("../images/cartographer.png");
+  position: relative;
+}
+
+.social {
+  .social-icon {
+    border: 2px solid #868e96;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+.footer-terms {
+  li {
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+    a {
+      &:hover {
+        color: $white !important;
+        transition: all 0.5s;
+      }
+    }
+    &:after {
+      content: "|";
+      margin: 0 20px;
+      color: #757575;
+    }
+  }
+}
