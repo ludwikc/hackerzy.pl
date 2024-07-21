@@ -3293,7 +3293,12 @@
 	position: relative;
 	text-align: center;
 	min-height: 108px;
-	overflow: hidden;
+	overflow: hidden;   
+	white-space: nowrap;
+    padding: 20px 0; /* Optional: Add vertical padding for spacing */
+    display: flex; /* Flexbox for horizontal alignment of tiles */
+    position: relative;
+    min-height: 200px; /* Ensure there's enough height for the tiles */
 }
 
 .clients-one .clients-box_one::before{
@@ -3366,6 +3371,50 @@
 	padding-right: 45px;
 }
 
+
+
+.tile {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    width: 250px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    display: inline-flex; /* Use inline-flex for vertical alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: #fff; /* White background */
+    margin: 0 10px; /* Optional: Add horizontal spacing between tiles */
+    box-sizing: border-box; /* Include padding and border in element’s total width and height */
+}
+
+.tile-icon {
+    font-size: 50px; /* Adjust size as needed */
+	margin-bottom: 20px; /* Increase spacing between the emoji and the title */
+}
+
+.tile-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically within the tile-content area */
+    align-items: center; /* Center content horizontally */
+}
+
+.tile-content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4; /* Ensure text wraps nicely */
+    text-align: center; /* Center-align the text */
+    word-wrap: break-word; /* Break long words if necessary */
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+	white-space: normal; /* Allow text to wrap normally */
+}
 /*** 
 
 ====================================================================
