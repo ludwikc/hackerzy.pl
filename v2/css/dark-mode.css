@@ -1,0 +1,26 @@
+.dark-mode body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .bg-light {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .bg-soft-light {
+  background-color: rgba(30, 30, 30, 0.1);
+}
+
+.dark-mode .text-light {
+  color: #e0e0e0;
+}
+
+.dark-mode .bg-primary {
+  background-color: #bb86fc;
+}
+
+.dark-mode .text-primary {
+  color: #bb86fc;
+}
+
+/* Add more dark mode specific styles here */
