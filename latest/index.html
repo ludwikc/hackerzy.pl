@@ -210,11 +210,11 @@
 					<div class="banner-one_text">Czas przestać borykać się z tymi samymi problemami, <br/>odkładać marzenia na później i&nbsp;gromadzić nieukończone kursy. <br/><br/> Dołącz do nas i&nbsp;odkryj, jak możesz wykorzystać swój pełny potencjał.</div>
 					<div class="banner-one_newsletter">
 						<div class="newsletter-box">
-							<form method="post" action="contact.html">
+							<form method="post" id="emailForm">
 								<div class="form-group">
 									<span class="icon fa-regular fa-envelope fa-fw"></span>
-									<input type="email" name="search-field" value="" placeholder="Enter business email" required>
-									<button type="submit" class="template-btn btn-style-one">
+									<input type="email" name="search-field" id="emailInput" value="" placeholder="Zacznijmy od Twojego maila" required>
+									<button type="submit" class="template-btn btn-style-one" id="submitButton">
 										<span class="btn-wrap">
 											<span class="text-one">Dołącz do nas</span>
 											<span class="text-two">Dołącz do nas</span>
@@ -1470,11 +1470,11 @@
 					<h2 class="sec-title_heading">Beyond boundaries enlist <br> in <span>our Community</span></h2>
 				</div>
 				<div class="newsletter-box">
-					<form method="post" action="contact.html">
+					<form method="post" id="emailForm">
 						<div class="form-group">
 							<span class="icon fa-regular fa-envelope fa-fw"></span>
-							<input type="email" name="search-field" value="" placeholder="Enter business email" required>
-							<button type="submit" class="template-btn btn-style-one">
+							<input type="email" name="search-field" id="emailInput" value="" placeholder="Zacznijmy od Twojego maila" required>
+							<button type="submit" class="template-btn btn-style-one" id="submitButton">
 								<span class="btn-wrap">
 									<span class="text-one">Join for free</span>
 									<span class="text-two">Join for free</span>
@@ -1688,11 +1688,11 @@
 								<h5 class="footer-title">Newsletter</h5>
 								<div class="footer-newsletter_text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis.</div>
 								<div class="newsletter-box">
-									<form method="post" action="contact.html">
+									<form method="post" id="emailForm">
 										<div class="form-group">
 											<span class="icon fa-regular fa-envelope fa-fw"></span>
-											<input type="email" name="search-field" value="" placeholder="Enter your mail" required>
-											<button type="submit" class="template-btn btn-style-one">
+											<input type="email" name="search-field" id="emailInput" value="" placeholder="Zacznijmy od Twojego maila" required>
+											<button type="submit" class="template-btn btn-style-one" id="submitButton">
 												<span class="btn-wrap">
 													<span class="text-one">Subscribe</span>
 													<span class="text-two">Subscribe</span>
@@ -1752,6 +1752,8 @@
 <script src="assets/js/jquery-ui.js"></script>
 <script src="assets/js/element-in-view.js"></script>
 <script src="assets/js/script.js"></script>
+
+<script src="assets/js/hackerzy-email-to-easycart.js"></script>
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
