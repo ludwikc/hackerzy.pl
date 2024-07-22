@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not these files or directories
+!.gitignore
+!index.html
+!*/
+!.md
