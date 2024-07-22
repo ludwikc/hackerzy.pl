@@ -1,8 +1,10 @@
 # Ignore everything
 *
 
-# But not these files or directories
+# Except for these files and directories
 !.gitignore
 !index.html
 !*/
-!.md
+
+# Make sure all contents within directories are tracked
+!**/*
