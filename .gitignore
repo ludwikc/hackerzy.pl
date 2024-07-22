@@ -1,6 +1,7 @@
 # Ignore everything
-template-pages/
-template-pages/*
+*.html
+.DS_Store
+*/.DS_Store
 
 # Except for these files and directories
 !.gitignore
