@@ -1,0 +1,11 @@
+# Ignore everything
+template-pages/
+template-pages/*
+
+# Except for these files and directories
+!.gitignore
+!index.html
+!*/
+
+# Make sure all contents within directories are tracked
+!**/*
