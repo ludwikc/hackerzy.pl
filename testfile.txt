@@ -1,6 +1,0 @@
-Test change
-
-
-
-git remote set-url --add --push origin https://github.com/ludwikc/hackerzy.pl.git
-git remote set-url --add --push origin ssh://ludwikc@ludwikc.com/home/ludwikc/hackerzy.pl
