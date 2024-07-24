@@ -1,8 +1,6 @@
 # Ignore everything
-*.html
 sendemail.php
 .DS_Store
-*/.DS_Store
 
 # Except for these files and directories
 !.gitignore
