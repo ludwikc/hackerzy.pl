@@ -124,3 +124,37 @@
 .icon-speaker:before {
   content: "\e921";
 }
+
+.icon-books:before {
+  content: "\e920";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-hammer:before {
+  content: "\e996";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-accessibility:before {
+  content: "\e9b2";
+}
+.icon-eye-blocked:before {
+  content: "\e9d1";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-scissors:before {
+  content: "\ea5a";
+}

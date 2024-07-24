@@ -28,13 +28,13 @@ Advanced Training Solutions
 Viktoriastraße 8  
 65189 Wiesbaden  
 Deutschland  
-E-Mail: [Ihre Kontakt-E-Mail-Adresse]
+E-Mail: connect@siadlak.email
 
 ## §6. Datenschutz
 
 1. Die Verarbeitung personenbezogener Daten erfolgt in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und weiteren anwendbaren Datenschutzgesetzen.
 2. Wir erheben, verarbeiten und nutzen personenbezogene Daten nur zum Zwecke der Erfüllung unserer vertraglichen Verpflichtungen und zur Verwaltung der Kundenbeziehungen.
-3. Die Nutzung von Drittanbietern für die Datenverarbeitung erfolgt unter Einhaltung der datenschutzrechtlichen Anforderungen. Kunden haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung ihrer personenbezogenen Daten. Anfragen zum Datenschutz richten Sie bitte an: [Ihre Kontakt-E-Mail-Adresse].
+3. Die Nutzung von Drittanbietern für die Datenverarbeitung erfolgt unter Einhaltung der datenschutzrechtlichen Anforderungen. Kunden haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung ihrer personenbezogenen Daten. Anfragen zum Datenschutz richten Sie bitte an: connect@siadlak.email.
 
 ## §7. Haftung
 
