@@ -1,76 +1,55 @@
-# Polityka prywatności
+# Polityka Prywatności
+
+## Wprowadzenie
+Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób Advanced Training Solutions ("my", "nasz", "nas") przetwarza Twoje dane osobowe podczas odwiedzania naszej strony internetowej [siadlak.com](https://siadlak.com) ("Strona") oraz korzystania z naszych usług. Zobowiązujemy się do ochrony Twojej prywatności oraz zapewnienia bezpieczeństwa Twoich danych osobowych zgodnie z Ogólnym Rozporządzeniem o Ochronie Danych (RODO) i innymi obowiązującymi przepisami o ochronie danych.
 
 ## Definicje
-- **Administrator (My)** – Advanced Training Solutions, Viktoriastraße 8, 65189 Wiesbaden, Niemcy, NIP DE321931949
-- **Dane osobowe** – wszelkie informacje o osobie fizycznej zidentyfikowanej lub możliwej do zidentyfikowania, w tym IP urządzenia, dane o lokalizacji, identyfikator internetowy, informacje z plików cookie i podobnych technologii.
-- **Polityka** – niniejsza Polityka prywatności.
-- **RODO** – Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
-- **Serwis** – serwis internetowy prowadzony pod adresem siadlak.com
-- **Użytkownik (Ty)** – każda osoba fizyczna odwiedzająca Serwis lub korzystająca z jego usług.
+1. **Administrator**: Advanced Training Solutions, Viktoriastraße 8, 65189 Wiesbaden, Niemcy, NIP: DE321931949.
+2. **Dane Osobowe**: Jakiekolwiek informacje dotyczące zidentyfikowanej lub możliwej do zidentyfikowania osoby fizycznej. Obejmuje to, ale nie ogranicza się do, imion, adresów e-mail, adresów IP, danych o lokalizacji i identyfikatorów internetowych.
+3. **Cookies**: Małe pliki tekstowe przechowywane na Twoim urządzeniu przez Stronę, które zbierają informacje o Twojej aktywności przeglądania.
+4. **Użytkownik**: Każda osoba odwiedzająca Stronę lub korzystająca z naszych usług.
 
-## Przetwarzanie danych w związku z korzystaniem z serwisu
-Zbieramy Twoje dane niezbędne do świadczenia usług i informacje o Twojej aktywności w Serwisie. Przetwarzanie danych osobowych odbywa się w następujących celach i na podstawie:
+## Zbieranie i Przetwarzanie Danych
+### Rodzaje Zbieranych Danych
+1. **Dane Podane Bezpośrednio**: Informacje, które podajesz nam bezpośrednio, takie jak dane kontaktowe (imię, adres e-mail, numer telefonu) i informacje płatnicze.
+2. **Dane Zbierane Automatycznie**: Dane zbierane automatycznie podczas korzystania z Strony, takie jak adres IP, rodzaj przeglądarki, historia przeglądania i dane cookies.
 
-- **Korzystanie z serwisu**: 
-  - Świadczenie usług drogą elektroniczną – art. 6 ust. 1 lit. b RODO.
-  - Cele analityczne i statystyczne – nasz uzasadniony interes, art. 6 ust. 1 lit. f RODO.
-  - Ustalanie i dochodzenie roszczeń lub obrona przed nimi – art. 6 ust. 1 lit. f RODO.
-  - Cele marketingowe – opisane w sekcji „Marketing”.
+### Cele i Podstawy Prawne Przetwarzania
+1. **Świadczenie i Poprawa Usług**: Przetwarzamy dane osobowe w celu świadczenia naszych usług i poprawy doświadczeń użytkowników. Podstawa prawna: wykonanie umowy (art. 6 ust. 1 lit. b RODO).
+2. **Komunikacja**: Aby odpowiadać na zapytania lub świadczyć wsparcie dla klientów. Podstawa prawna: uzasadnione interesy (art. 6 ust. 1 lit. f RODO).
+3. **Marketing**: W celu wysyłania komunikatów marketingowych, na podstawie Twojej zgody. Podstawa prawna: zgoda (art. 6 ust. 1 lit. a RODO).
+4. **Zgodność z Przepisami i Obowiązki Prawne**: Aby spełniać obowiązki prawne, rozstrzygać spory i egzekwować nasze umowy. Podstawa prawna: obowiązek prawny (art. 6 ust. 1 lit. c RODO) i uzasadnione interesy (art. 6 ust. 1 lit. f RODO).
 
-Twoje dane są rejestrowane w logach systemowych dla celów technicznych, administracyjnych, analitycznych i statystycznych.
+### Okres Przechowywania Danych
+Przechowujemy dane osobowe tak długo, jak jest to konieczne do realizacji celów określonych w niniejszej polityce lub zgodnie z obowiązującymi przepisami prawa. Dane, które nie są już potrzebne, zostaną bezpiecznie usunięte lub zanonimizowane.
 
-## Rejestracja w serwisie
-Podczas rejestracji prosimy o podanie danych niezbędnych do utworzenia i obsługi konta. Podanie danych jest wymagane, a ich brak uniemożliwia założenie konta. Dane osobowe są przetwarzane w celu:
+## Prawa Użytkowników
+Zgodnie z RODO, przysługują Ci następujące prawa w związku z Twoimi danymi osobowymi:
+1. **Dostęp**: Prawo dostępu do swoich danych osobowych i otrzymania ich kopii.
+2. **Sprostowanie**: Prawo do sprostowania nieścisłości w swoich danych osobowych.
+3. **Usunięcie**: Prawo do żądania usunięcia swoich danych osobowych w określonych warunkach.
+4. **Ograniczenie Przetwarzania**: Prawo do żądania ograniczenia przetwarzania swoich danych osobowych.
+5. **Przenoszenie Danych**: Prawo do otrzymania swoich danych osobowych w ustrukturyzowanym, powszechnie używanym formacie.
+6. **Sprzeciw**: Prawo do sprzeciwu wobec przetwarzania swoich danych osobowych, szczególnie w celach marketingowych.
+7. **Wycofanie Zgody**: Jeśli przetwarzanie odbywa się na podstawie zgody, masz prawo ją wycofać w dowolnym momencie.
 
-- Świadczenia usług związanych z kontem – art. 6 ust. 1 lit. b RODO.
-- Analityki i statystyk – nasz uzasadniony interes, art. 6 ust. 1 lit. f RODO.
-- Dochodzenia roszczeń lub obrona przed nimi – art. 6 ust. 1 lit. f RODO.
-- Celów marketingowych – zgodnie z sekcją „Marketing”.
+Aby skorzystać z tych praw, prosimy o kontakt na adres [connect@siadlak.email](mailto:connect@siadlak.email).
 
-Logowanie przez inne portale społecznościowe wiąże się z przekazaniem tylko niezbędnych danych.
+## Bezpieczeństwo Danych
+Wdrażamy odpowiednie środki techniczne i organizacyjne w celu ochrony danych osobowych przed nieautoryzowanym dostępem, zmianą, ujawnieniem lub zniszczeniem.
 
-## Korzystanie z płatnych usług w serwisie
-Przetwarzamy dane osobowe w celu realizacji zamówień, wypełnienia obowiązków ustawowych, analizy aktywności w Serwisie oraz ewentualnego dochodzenia roszczeń. Podstawą prawną jest art. 6 ust. 1 lit. b, c, f RODO.
+## Cookies i Technologie Śledzące
+Używamy cookies i podobnych technologii, aby ulepszyć Twoje doświadczenia na naszej Stronie. Możesz zarządzać swoimi preferencjami dotyczącymi cookies poprzez ustawienia przeglądarki. Więcej informacji znajdziesz w naszej [Polityce Cookies](https://siadlak.com/polityka-cookies).
 
-## Formularze kontaktowe
-Przetwarzamy dane osobowe podane w formularzach kontaktowych w celu obsługi zapytań. Podstawą prawną jest art. 6 ust. 1 lit. b, f RODO.
+## Udostępnianie i Przekazywanie Danych
+Nie sprzedajemy Twoich danych osobowych. Możemy udostępniać Twoje dane zaufanym stronom trzecim, takim jak dostawcy usług, zgodnie z obowiązującymi przepisami o ochronie danych. Jeśli dane są przekazywane poza Europejski Obszar Gospodarczy (EOG), zapewniamy odpowiednią ochronę poprzez standardowe klauzule umowne lub inne prawnie uznane mechanizmy.
 
-## Marketing
-Przetwarzamy Twoje dane w celach marketingowych, w tym wyświetlania treści marketingowych, reklamy behawioralnej, kierowania e-mailowych powiadomień oraz działań marketingu bezpośredniego. Wykorzystujemy profilowanie, jeśli wyrazisz na to zgodę.
+## Zmiany w Polityce Prywatności
+Możemy aktualizować niniejszą Politykę Prywatności od czasu do czasu. Zmiany będą publikowane na tej stronie z zaktualizowaną datą wejścia w życie. Zachęcamy do regularnego przeglądania tej polityki.
 
-### Reklama kontekstowa
-Przetwarzanie danych osobowych w celu wyświetlania reklamy kontekstowej odbywa się na podstawie naszego uzasadnionego interesu, art. 6 ust. 1 lit. f RODO.
-
-### Reklama behawioralna
-Wykorzystujemy pliki cookie do celów marketingowych, w tym profilowania, z Twoją zgodą.
-
-## Newsletter
-Świadczymy usługę newslettera, przetwarzając dane osobowe na podstawie art. 6 ust. 1 lit. b, f RODO.
-
-## Marketing bezpośredni
-Wykorzystujemy dane osobowe w celach marketingu bezpośredniego za Twoją zgodą.
-
-## Portale społecznościowe
-Przetwarzamy dane osobowe w mediach społecznościowych na podstawie naszego uzasadnionego interesu, art. 6 ust. 1 lit. f RODO.
-
-## Pliki cookies oraz podobna technologia
-Stosujemy pliki cookies do świadczenia usług, analizy ruchu i celów marketingowych. Ustawienia cookies można zarządzać poprzez przeglądarkę internetową.
-
-## Okres przetwarzania danych osobowych
-Dane przetwarzane są przez okres świadczenia usługi, do czasu wycofania zgody lub zgłoszenia sprzeciwu. Po tym okresie dane są usuwane lub anonimizowane.
-
-## Twoje uprawnienia
-Masz prawo do informacji o przetwarzaniu danych, uzyskania kopii, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, sprzeciwu wobec przetwarzania, wycofania zgody oraz do złożenia skargi do organu nadzorczego.
-
-## Odbiorcy danych
-Dane mogą być ujawniane zaufanym partnerom i podmiotom powiązanym. Przekazywanie danych osobowych poza EOG odbywa się z zapewnieniem odpowiedniego stopnia ochrony.
-
-## Bezpieczeństwo danych osobowych
-Zapewniamy, że Twoje dane osobowe są przetwarzane bezpiecznie, dostęp mają jedynie osoby upoważnione.
-
-## Dane kontaktowe
-Możesz się z nami skontaktować poprzez:
-- E-mail: ludwikc@siadlak.email
-- Adres: Advanced Training Solutions, Viktoriastraße 8, 65189 Wiesbaden, Niemcy, NIP DE321931949
-
-Źródło: [siadlak.com](https://siadlak.com)
+## Informacje Kontaktowe
+W przypadku pytań lub wątpliwości dotyczących niniejszej Polityki Prywatności lub naszych praktyk w zakresie danych, prosimy o kontakt:
+**Inspektor Ochrony Danych**
+Advanced Training Solutions
+Viktoriastraße 8, 65189 Wiesbaden, Niemcy
+Email: [connect@siadlak.email](mailto:connect@siadlak.email)
