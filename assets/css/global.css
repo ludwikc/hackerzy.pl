@@ -83,6 +83,9 @@
 
 	--main-color: rgb(165,92,255);
 	--main-color-rgb:165,92,255;
+
+	--main-color-background: rgb(118,31,227); 
+	--main-color-background-rgb:118,31,227; 
 	
 	/* #141414 in decimal RGB */
 	--color-two: rgb(20,20,20);
@@ -203,7 +206,8 @@ body {
 /* Preloader */
 
 .handle-preloader{
-  background-color:var(--main-color);
+  /* background-color:var(--main-color); */
+  background-color:#141414; 
 }
 
 .handle-preloader {
@@ -289,6 +293,7 @@ body {
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
 .handle-preloader .loader-section {
   background-color: #fff;
+  /* background-color: var(--main-color-background-rgb); */
   height: 100%;
   position: fixed;
   top: 0;
@@ -602,7 +607,7 @@ img{
 	padding:18px 34px;
 	display:inline-block;
     color: var(--white-color);
-	background-color: var(--main-color);
+	background-color: var(--main-color-background);
 }
 
 .btn-style-one:before{
@@ -689,7 +694,7 @@ img{
 	padding:18px 34px;
 	display:inline-block;
     color: var(--white-color);
-	border: 1px solid var(--main-color);
+	border: 1px solid var(--main-color-background);
 }
 
 .btn-style-two:before{
@@ -705,7 +710,7 @@ img{
 	transform: translateX(-50%);
 	border-radius: 50%;
 	z-index: 1;
-	background-color: var(--main-color);
+	background-color: var(--main-color-background);
 }
 
 .btn-style-two:hover:before{
@@ -884,7 +889,7 @@ img{
 	margin-bottom: 10px;
 	color: var(--color-five);
 	border-top: 1px solid var(--color-five);
-	background-color: rgba(var(--main-color-rgb), 0.20);
+	background-color: rgba(var(--main-color-background-rgb), 0.20);
 }
 
 .sec-title_title{
@@ -921,7 +926,7 @@ img{
     border-radius: 50px;
 
 	background: var(--main-color);
-    background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+    background: linear-gradient(to top, var(--main-color-background) 0%, var(--color-two) 100%);
 }
 
 .sec-title_text{
@@ -938,7 +943,7 @@ img{
 .sec-title.light .sec-title_heading span::before{
 	opacity: 0.70;
 	background: var(--white-color);
-    background: linear-gradient(to top, var(--white-color) 0%, var(--main-color) 100%);
+    background: linear-gradient(to top, var(--white-color) 0%, var(--main-color-background) 100%);
 }
 
 .sec-title.light .sec-title_text{
