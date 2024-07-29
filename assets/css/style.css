@@ -2559,13 +2559,13 @@
   }
   
   .banner-one_image iframe.desktop {
-	height: 56.25vw; /* 16:9 ratio (9/16 = 0.5625) */
+	height: 56.25vw; /* 16:9 ratio */
 	width: 100%;
   }
   
   .banner-one_image iframe.mobile {
-	height: 100vw; /* 9:16 ratio (16/9 = 1.7777) */
-	width: 177.77vh; /* Adjust to maintain aspect ratio within the viewport */
+	width: 90vw; /* 90% of viewport width */
+	height: 160vw; /* 9:16 ratio based on 90vw width (90/16*9 = 160) */
   }
 
 .banner-one_icon{
