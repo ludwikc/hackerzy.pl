@@ -917,8 +917,8 @@
 // Add the iframe video change script here
 window.onload = function() {
     var iframe = document.getElementById('videoIframe');
-    var desktopVideoSrc = "https://iframe.mediadelivery.net/embed/158903/34249d47-d76d-4931-9f65-7bc02569348f?autoplay=true&loop=true&muted=true&preload=true&responsive=false";
-    var mobileVideoSrc = "https://iframe.mediadelivery.net/embed/158903/a638a36b-2776-4614-b453-41c461b7d1b6?autoplay=true&loop=true&muted=true&preload=true&responsive=false";
+    var desktopVideoSrc = "https://iframe.mediadelivery.net/embed/158903/34249d47-d76d-4931-9f65-7bc02569348f?autoplay=true&loop=true&muted=true&preload=true&responsive=true";
+    var mobileVideoSrc = "https://iframe.mediadelivery.net/embed/158903/a638a36b-2776-4614-b453-41c461b7d1b6?autoplay=true&loop=true&muted=true&preload=true&responsive=true";
 
     if (window.innerWidth < 768) {
         iframe.src = mobileVideoSrc;
