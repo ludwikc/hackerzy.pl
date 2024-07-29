@@ -3394,7 +3394,7 @@
 
 .tile-icon {
     font-size: 50px; /* Adjust size as needed */
-	margin-bottom: 20px; /* Increase spacing between the emoji and the title */
+    margin-bottom: 20px; /* Increase spacing between the emoji and the title */
 }
 
 .tile-content {
@@ -3403,6 +3403,9 @@
     flex-direction: column;
     justify-content: center; /* Center content vertically within the tile-content area */
     align-items: center; /* Center content horizontally */
+    height: 100px; /* Fixed height to maintain uniform tile size */
+    overflow: hidden; /* Hide overflowing content */
+    text-align: center;
 }
 
 .tile-content p {
@@ -3410,11 +3413,11 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 1.4; /* Ensure text wraps nicely */
-    text-align: center; /* Center-align the text */
     word-wrap: break-word; /* Break long words if necessary */
     overflow-wrap: break-word; /* Break long words to prevent overflow */
-	white-space: normal; /* Allow text to wrap normally */
+    white-space: normal; /* Allow text to wrap normally */
 }
+
 /*** 
 
 ====================================================================
