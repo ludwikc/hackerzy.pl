@@ -2553,9 +2553,20 @@
 	color: var(--main-color);
 }
 
-.banner-one_image{
+.banner-one_image {
+	width: 100%;
 	position: relative;
-}
+  }
+  
+  .banner-one_image iframe.desktop {
+	height: 56.25vw; /* 16:9 ratio (9/16 = 0.5625) */
+	width: 100%;
+  }
+  
+  .banner-one_image iframe.mobile {
+	height: 100vw; /* 9:16 ratio (16/9 = 1.7777) */
+	width: 177.77vh; /* Adjust to maintain aspect ratio within the viewport */
+  }
 
 .banner-one_icon{
 	position: absolute;

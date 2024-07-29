@@ -914,7 +914,21 @@
 		wow.init();
 	}
 	
+// Add the iframe video change script here
+window.onload = function() {
+    var iframe = document.getElementById('videoIframe');
+    var desktopVideoSrc = "https://iframe.mediadelivery.net/embed/158903/34249d47-d76d-4931-9f65-7bc02569348f?autoplay=true&loop=true&muted=true&preload=true&responsive=true";
+    var mobileVideoSrc = "https://iframe.mediadelivery.net/embed/158903/68480987-85e4-4a42-bbde-81f12fe8c7ff?autoplay=true&loop=true&muted=true&preload=true&responsive=true";
 
+
+
+
+    if (window.innerWidth < 768) {
+        iframe.src = mobileVideoSrc;
+    } else {
+        iframe.src = desktopVideoSrc;
+    }
+};
 
 /* ==========================================================================
    When document is Scrollig, do
