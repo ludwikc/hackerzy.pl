@@ -2553,24 +2553,27 @@
 	color: var(--main-color);
 }
 
-
 .banner-one_image {
 	width: 100%;
 	position: relative;
-	overflow: hidden; /* Ensure that content doesn't overflow the container */
+	overflow: hidden;
+	text-align: center; /* Center the content */
+  }
+  
+  .banner-one_image iframe {
+	border: 0;
   }
   
   .banner-one_image iframe.desktop {
 	width: 100%;
-	height: 56.25vw; /* 16:9 ratio */
+	height: 56.25vw; /* 16:9 aspect ratio */
   }
   
   .banner-one_image iframe.mobile {
 	width: 90vw; /* 90% of viewport width */
 	height: calc(90vw * 16 / 9); /* Maintain 9:16 ratio */
-	max-width: 100%; /* Ensure it doesn't exceed the parent container */
-	margin: 0 auto; /* Center the iframe within the container */
-  }
+	max-width: 100%;
+	margin: 0 auto; /* Center the iframe */
 
 .banner-one_icon{
 	position: absolute;
