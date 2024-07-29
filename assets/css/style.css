@@ -2556,12 +2556,12 @@
 .banner-one_image {
 	width: 100%;
 	position: relative;
-	overflow: hidden;
-	text-align: center; /* Center the content */
+	text-align: center; /* Center the iframe */
   }
   
   .banner-one_image iframe {
 	border: 0;
+	display: inline-block; /* Ensure it respects margin auto for centering */
   }
   
   .banner-one_image iframe.desktop {
@@ -2572,8 +2572,7 @@
   .banner-one_image iframe.mobile {
 	width: 90vw; /* 90% of viewport width */
 	height: calc(90vw * 16 / 9); /* Maintain 9:16 ratio */
-	max-width: 100%;
-	margin: 0 auto; /* Center the iframe */}
+  }
 
 .banner-one_icon{
 	position: absolute;
