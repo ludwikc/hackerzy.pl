@@ -2570,8 +2570,10 @@
   }
   
   .banner-one_image iframe.mobile {
-	width: 90vw; /* 90% of viewport width */
-	height: calc(90vw * 16 / 9); /* Maintain 9:16 ratio */
+	height: 80vh; /* 80% of the viewport height */
+	width: calc(80vh * 9 / 16); /* Maintain 9:16 aspect ratio */
+	max-width: 100%; /* Ensure it does not exceed container width */
+	margin: 0 auto; /* Center the iframe */
   }
 
 .banner-one_icon{
