@@ -1,0 +1,89 @@
+DNS ZONE.txt
+
+-- SIADLAK.COM
+
+$TTL 3600
+@	IN SOA dns101.ovh.net. tech.ovh.net. (2024090803 86400 3600 3600000 60)
+        IN NS     dns101.ovh.net.
+        IN NS     ns101.ovh.net.
+        IN MX     1 aspmx.l.google.com.
+        IN MX     5 alt1.aspmx.l.google.com.
+        IN MX     10 alt4.aspmx.l.google.com.
+        IN MX     10 alt3.aspmx.l.google.com.
+        IN MX     5 alt2.aspmx.l.google.com.
+        IN A     173.236.249.22
+        IN TXT     "1|www.siadlak.com"
+        IN TXT     "v=spf1 +a +mx +ip4:208.113.198.93 +ip4:35.207.172.106 include:_spf.mailspamprotection.com include:emsd1.com include:_spf.google.com -all"
+        IN TXT     "v=DKIM1;k=rsa;s=email;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFkSrijY1EHa32pqsZ/KneeVthaMaEIdxWlk4abAF9CtZ4+FxMVIz1V4O25fM7O18Z19n1NyT15XmvaBV3u2KWs5aJlKUhguDsphOWGjFnOPTUxILjij2OB+0Ye7olmWJlF2Evq2UlfSTCO3+rr6yxkXWYhHhJtn29NOiswxXfGQIDAQAB;t=s;"
+_dmarc        IN TXT     "v=DMARC1;p=none;sp=reject;aspf=s;"
+ac        IN CNAME     siadlak.activehosted.com.
+apply        IN CNAME     cname.tally.so.
+azure        IN TXT     "MS=ms34750373"
+cdn        IN CNAME     siadlak-bcc4.kxcdn.com.
+connect        IN CNAME     pages.mailerlite.com.
+dhmail._domainkey.platforma        IN TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgDTIoLxYIr8uKNg/FG1NLAAdh84DbnbHgLsCKbuTGybs2txTdzji8tu4kGSbr+iiDG5xOJ8xd8un+LuKuXZlG90mYSp2xDFyfZGPf28NhHChpyMMhdTRNOcfg/mE+DHhpLztyZPCGP8PTpypCnigzVocW9vQ2X3XZPtBdgWmcwwIDAQAB"
+diabel        IN CNAME     domains.tumblr.com.
+docs        IN CNAME     craft-hosting.do.
+emails   1440 IN CNAME     siadlak.activehosted.com.
+go        IN CNAME     cname.bitly.com.
+hello        IN CNAME     5917e5f5-d22b-4d7d-bd6d-cc46b5078dbc.landing.bonjoro.com.
+help        IN CNAME     desk.cs.zohohost.com.
+heyi        IN CNAME     cname.vercel-dns.com.
+learn        IN CNAME     sites.podia.com.
+link        IN CNAME     domain.linke.to.
+one        IN TXT     "zoho-verification=zb02724247.zmverify.zoho.com"
+platform        IN CNAME     ssl.kajabi.com.
+platforma        IN CNAME     hackerzy.discoursehosting.net.
+vhs        IN CNAME     vimeoshowcase.com.
+video        IN A     34.149.47.171
+videos        IN CNAME     vimeoshowcase.com.
+webinar        IN CNAME     custom.wave.video.
+welcome        IN CNAME     siadlak.ac-page.com.
+www        IN A     173.236.249.22
+www        IN TXT     "3|welcome"
+zaproszenie        IN CNAME     pages.mailerlite.com.
+zd9c7b276b744ea5233c8347f6395a05f4        IN CNAME     desk.cs.zohohost.com.
+
+
+############# SIADLAK.dE
+
+
+
+
+$TTL 3600
+@	IN SOA dns10.ovh.net. tech.ovh.net. (2021050901 86400 3600 3600000 300)
+        IN NS     dns10.ovh.net.
+        IN NS     ns10.ovh.net.
+        IN MX     1 siadlak-de.mail.protection.outlook.com.
+        IN A     208.113.199.102
+        IN TXT     "v=spf1 include:spf.protection.outlook.com -all"
+autodiscover        IN CNAME     autodiscover.outlook.com.
+www        IN A     208.113.199.102
+
+
+
+############# LUDWIKC.NET
+
+
+$TTL 3600
+@	IN SOA dns103.ovh.net. tech.ovh.net. (2024110500 86400 3600 3600000 300)
+        IN NS     ns103.ovh.net.
+        IN NS     dns103.ovh.net.
+        IN MX     1 aspmx.l.google.com.
+        IN MX     5 alt1.aspmx.l.google.com.
+        IN MX     5 alt2.aspmx.l.google.com.
+        IN MX     10 aspmx2.googlemail.com.
+        IN MX     10 aspmx3.googlemail.com.
+        IN A     185.199.111.153
+        IN A     185.199.110.153
+        IN A     185.199.109.153
+        IN A     185.199.108.153
+        IN TXT     "google-site-verification=Bhniul8UEXOUvae5cmsUl4TnkrXgbNyaYNkWBwp3F00"
+        IN TXT     "v=spf1" "include:_spf.google.com" "~all"
+_github-pages-challenge-ludwikc        IN TXT     "58562e2c470c2ccd0d317daf4ca3a2"
+ftp        IN CNAME     ludwikc.net.
+mail        IN CNAME     ghs.googlehosted.com.
+www        IN CNAME     ludwikc.github.io.
+
+
+
